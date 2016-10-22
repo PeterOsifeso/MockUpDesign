@@ -1,0 +1,72 @@
+.row{
+    width:100%;
+    max-width: 100%;
+}
+
+.text-center{
+    text-align: center;
+    align-self: center;
+}
+hr{
+    border-width: 3px;
+    border-color: black;
+    margin: 0;
+    width:100%;
+}
+.vertical_hrs{
+    width: 1px;
+    size:500px;
+}
+.nav_options{
+    padding-right: 20px;
+}
+.showborder{
+    padding: 6px;
+    padding-bottom: 2px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+
+}
+.carousel-control{
+    margin-top: 20%;
+}
+.slide{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.progress_row{
+    margin-bottom: 20px;
+}
+.button_row{
+    margin-bottom: 40px;
+}
+.honor_badge{
+    //background-image: url('../img/slide2.png');
+    border-radius: 20px;
+    width:30%;
+    height:250px;
+    background-color: #24a42e;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.honor_badge_img{
+    width: 70%;
+    height:70%;
+    margin-top: 20px;
+}
+.honor_badge_txt {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+.profile_pic{
+    width: 100%;
+    height: 60%;
+
+}
+img{
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}

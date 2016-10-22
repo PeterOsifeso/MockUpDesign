@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/mystyle.css" type="text/css">
+    <link rel="stylesheet" href="css/mystyle.css" type="text/css">
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/myscript.js"></script>
+    <title>MOTIVATE ME</title>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row text-center"><h1>MOTIVATE ME</h1></div>
+    <div class="text-right"><span>Welcome back John Doe</span></div>
+
+    <hr class="row">
+    <div class="row">
+        <div class="col-md-8">
+            <span class="nav_options"><a href="">HOME</a></span>
+            <span class="nav_options"><a href="">MY GOALS</a></span>
+            <span class="nav_options"><a href="">HALL OF FAME</a></span>
+            <span class="nav_options"><a href="">MOTIVATION</a></span>
+            <span class="nav_options"><a href="">ABOUT</a></span>
+        </div>
+
+        <div class="col-md-4 text-right showborder">
+            <span class="nav_options"><a href="create_goal.html">GOALS<sup class="badge">4</sup></a></span>
+            <span class="nav_options"><a href="profile.html">PROFILE</a></span>
+            <span class="nav_options"><a href="">SETTINGS</a></span>
+            <span class="nav_options"><a href="">LOGOUT</a></span>
+        </div>
+    </div>
+
+    <form method="post">
+        <div class="form-inline">
+            <input class="form-control" id="Title" name="Title" placeholder="Title">
+            <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+            <label class="checkbox-inline">
+                <input type="checkbox" id="inlineCheckbox1" value="Active">Active
+            </label>
+        </div>
+        <p></p>
+        <div class="col-md-6 text-left">
+            <div class="form-inline">
+                <input class="form-control" id="Description" name="Description" placeholder="Description">
+            </div>
+        </div>
+        <div class="form-group"> <!-- Submit button -->
+            <button class="btn btn-primary " name="submit" type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+
+
+</body>
+</html>
